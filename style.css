@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+.hamburger {
+  background-color: #fff;
+  width: 45px;
+  height: 30px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: block;
+  border: solid 1px;
+  background-image: url(https://i.imgur.com/FGQOk2Y.png);
+  background-size: cover;
+  z-index: 100;
+  transition: 0.3s;
+  animation: ppp 2s;
+}
+
+@keyframes ppp {
+  0% {
+    right: -350px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+.hamburger:hover {
+  background-image: url(https://i.imgur.com/lOplEaO.png);
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1550px;
+  cursor: url(https://i.imgur.com/5aBmUJ1.png), auto;
+  background-image: linear-gradient(#EEFF30 60%, #E5E5E5 70%);
+  overflow-x: hidden;
+}
+
+.menu ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-family: Andale Mono;
+  font-size: 20px;
+  text-align: left;
+  background: #fff;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border: solid 1px black;
+}
+
+.menu {
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  top: 30px;
+  right: 0;
+  z-index: 100;
+  transform: translateX(100%);
+  transition: 0.5s;
+}
+
+.logo {
+  font-size: 13px;
+  font-family: Andale Mono;
+  letter-spacing: 0.2em;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#menu-switcher:checked ~ .menu {
+  transform: translateX(0%);
+}
+
+#menu-switcher {
+  display: none;
+}
+
+.col-md-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 90;
+}
+.col-md-5 .a {
+  position: fixed;
+  text-align: left;
+  margin-left: -13px;
+  animation: pp 2s;
+}
+@keyframes pp {
+  0% {
+    left: -350px;
+  }
+  100% {
+    left: 13px;
+  }
+}
+.col-md-5 .aaa {
+  position: relative;
+}
+.col-md-5 .aa:hover {
+  transform: scale(1.1);
+  background-color: #A29BF9;
+}
+.col-md-5 .k {
+  font-size: 16px;
+  letter-spacing: 0.3em;
+}
+.col-md-5 .a1 {
+  font-family: Andale Mono;
+  font-size: 25px;
+  margin-top: 50px;
+  border: solid 1px;
+  background: #fff;
+  padding: 6px;
+  text-align: center;
+}
+.col-md-5 .a2 {
+  border: solid 1px;
+  background: #fff;
+  padding: 6px;
+  width: 80px;
+  text-align: center;
+}
+.col-md-5 .a3 {
+  position: relative;
+  border: solid 1px;
+  background: #fff;
+  padding: 6px;
+  width: 108px;
+  text-align: center;
+}
+.col-md-5 .a4 {
+  position: relative;
+  border: solid 1px;
+  background: #fff;
+  padding: 6px;
+  width: 205px;
+  text-align: center;
+}
+
+.a5 {
+  position: relative;
+  border: solid 1px;
+  background: #fff;
+  padding: 6px;
+  width: 247px;
+  text-align: center;
+}
+
+.next {
+  font-weight: 100;
+  font-size: 25px;
+  transition: 0.5s;
+  position: relative;
+  border: solid 1px;
+  background: #A29BF9;
+  padding: 5px;
+  text-align: center;
+  margin-right: 150px;
+  top: 300px;
+}
+
+.next:hover {
+  border-radius: 100%;
+}
+
+.col-md-7 {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: -13px;
+}
+.col-md-7 .b1 {
+  font-family: Andale Mono;
+  font-size: 33px;
+  text-align: right;
+  letter-spacing: 0.2em;
+  position: relative;
+}
+.col-md-7 .b2.gg {
+  margin-top: 144px;
+}
+.col-md-7 .b2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: right;
+  background: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.b2.bbc {
+  height: 20px;
+  margin-top: -10px;
+}
+
+.b3 {
+  background-image: url(https://i.imgur.com/AU5u7Sd.jpg);
+  width: 71px;
+  height: 127px;
+}
+.b4.b44.b5 {
+   display: none;
+   color: #A29BF9;
+   transition: 5s;
+}
+.b3b:hover ~ .b4.b44.b5 {
+  display: block;
+}
+
+.b3b:hover{
+  height: 61px;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  margin-bottom: -31px;
+}
+
+.b3.bb3 {
+  height: 61px;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  margin-bottom: -31px;
+}
+
+.b4 {
+  font-size: 13px;
+  text-align: right;
+  letter-spacing: 0.3em;
+  line-height: 25px;
+  font-weight: 180;
+}
+.b4.b44 {
+  font-weight: 390;
+}
+
+.col-md-12 {
+  height: 35px;
+  width: 100%;
+  background: #A29BF9;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.ss {
+  width: 100%;
+  letter-spacing: 0.3em;
+  position: absolute;
+  font-family: Andale Mono;
+  font-size: 23px;
+  animation: h1 15s infinite;
+  animation-timing-function: linear;
+  overflow-x: hidden;
+}
+
+@keyframes h1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+
+#cover {
+  background-color: #EEFF30;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top:0%;
+  z-index: 9999;
+}
