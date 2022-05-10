@@ -288,11 +288,3 @@ a:active {
 }
 
 
-#cover {
-  background-color: #EEFF30;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top:0%;
-  z-index: 9999;
-}
