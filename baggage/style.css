@@ -212,7 +212,8 @@ footer .col-md-12 {
   background: #A29BF9;
   overflow-x: hidden;
 }
-footer .ss {
+
+.ss {
   width: 100%;
   letter-spacing: 0.3em;
   position: absolute;
@@ -222,6 +223,7 @@ footer .ss {
   animation-timing-function: linear;
   overflow-x: hidden;
 }
+
 @keyframes h1 {
   from {
     left: 100%;
