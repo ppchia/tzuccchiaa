@@ -81,12 +81,12 @@ a:visited {
 }
 
 a:hover {
-  color: #fff;
+  color: #A29BF9;
   text-decoration: none;
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #A29BF9;
   text-decoration: none;
 }
 
@@ -206,18 +206,18 @@ a:active {
   margin-top: 144px;
 }
 .col-md-7 .b2 {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 100%;
   text-align: right;
   background: #eee;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
 }
 
 .b2.bbc {
   height: 20px;
-  margin-top: -10px;
 }
 
 .b3 {
