@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 .hamburger {
   background-color: #fff;
@@ -231,4 +233,3 @@ footer .ss {
     left: 0%;
   }
 }
-
