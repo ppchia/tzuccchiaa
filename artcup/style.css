@@ -1,3 +1,7 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .hamburger {
   background-color: #fff;
