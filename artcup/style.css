@@ -189,13 +189,9 @@ h2 {
 
 img {
   width: 100%;
-  background-size: cover;
+ 
 }
 
-.img_wrap {
-  
-  background-size: cover;
-}
 
 section#end .row {
   height: 600px;
