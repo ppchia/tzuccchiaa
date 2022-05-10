@@ -263,7 +263,7 @@ a:active {
   height: 35px;
   width: 100%;
   background: #A29BF9;
-
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -275,7 +275,7 @@ a:active {
   font-size: 23px;
   animation: h1 15s infinite;
   animation-timing-function: linear;
-
+  overflow-x: hidden;
 }
 
 @keyframes h1 {
