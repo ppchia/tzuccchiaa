@@ -13,6 +13,7 @@
   background-size: cover;
   z-index: 100;
   transition: 0.3s;
+  animation: pp 2s;
 }
 
 .hamburger:hover {
