@@ -213,7 +213,7 @@ footer .col-md-12 {
   height: 35px;
   width: 100%;
   background: #A29BF9;
-  overflow-x: hidden;
+
 }
 footer .ss {
   width: 100%;
@@ -223,7 +223,7 @@ footer .ss {
   font-size: 23px;
   animation: h1 15s infinite;
   animation-timing-function: linear;
-  overflow-x: hidden;
+
 }
 @keyframes h1 {
   from {
