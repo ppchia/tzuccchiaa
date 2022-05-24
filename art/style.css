@@ -1,10 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 
 .hamburger {
   background-color: #fff;
-  width: 45px;
-  height: 30px;
+  width: 54px;
+  height: 36px;
   position: fixed;
-  top: 0px;
+  top: 30px;
   right: 0px;
   display: block;
   border: solid 1px;
@@ -23,7 +26,6 @@
 body {
   margin: 0;
   padding: 0;
-
   cursor: url(https://i.imgur.com/5aBmUJ1.png), auto;
   background: #E5E5E5;
   overflow-x: hidden;
@@ -46,7 +48,7 @@ body {
   height: 100vh;
   width: 50%;
   position: fixed;
-  top: 30px;
+  top: 65px;
   right: 0;
   z-index: 100;
   transform: translateX(100%);
@@ -107,7 +109,7 @@ h2, br {
 .boxx {
   position: fixed;
   right: 0;
-  top: 50px;
+  top: 85px;
   text-align: right;
   z-index: 90;
   font-size: 10px;
@@ -223,7 +225,7 @@ img {
 }
 
 .tt {
-  width: 210px;
+  width: 200px;
 }
 
 .t2 {
@@ -291,4 +293,5 @@ footer .ss {
     left: 0%;
   }
 }
+
 
