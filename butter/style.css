@@ -198,7 +198,6 @@ img {
 }
 
 section#end .row {
-  height: 600px;
   font-size: 33px;
   font-family: Andale Mono;
   padding-top: 450px;
@@ -209,11 +208,13 @@ section#end .row .text {
   padding-top: 100px;
 }
 
+
 footer .col-md-12 {
   height: 35px;
   width: 100%;
   background: #A29BF9;
   overflow-x: hidden;
+  position: relative;
 }
 footer .ss {
   width: 100%;
@@ -233,4 +234,3 @@ footer .ss {
     left: 0%;
   }
 }
-
