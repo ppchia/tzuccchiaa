@@ -99,6 +99,10 @@ h2, br {
   font-family: Andale Mono;
 }
 
+.container-fluid{
+  height: 100 %;
+}
+
 .c {
   width: 8px;
   height: 8px;
